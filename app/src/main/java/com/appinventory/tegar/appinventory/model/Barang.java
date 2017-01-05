@@ -68,8 +68,9 @@ public class Barang {
     public void setHarga_barang(String harga_barang){
         this.harga_barang = harga_barang;
     }
+
     @Override
     public String toString(){
-        return "Barang "+ nama_barang +" "+ merk_barang + " "+ harga_barang;
+        return "Nama Barang :" + nama_barang +" \n Merk Barang :"+ merk_barang + " \n Harga Barang :"+ harga_barang;
     }
 }
